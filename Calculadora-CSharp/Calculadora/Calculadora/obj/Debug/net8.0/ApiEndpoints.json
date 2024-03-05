@@ -1,7 +1,28 @@
 [
   {
     "ContainingType": "Calculadora.Controllers.CalculatorController",
-    "Method": "Get",
+    "Method": "GetSub",
+    "RelativePath": "Calculator/sub/{firstNumber}/{secondNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "secondNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calculadora.Controllers.CalculatorController",
+    "Method": "GetSum",
     "RelativePath": "Calculator/sum/{firstNumber}/{secondNumber}",
     "HttpMethod": "GET",
     "IsController": true,
